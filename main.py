@@ -20,10 +20,6 @@ def listen_for_cmd():
         print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
 
-def del_me():
-    print('hello')
-
-
 def activate_assistant(key):
     if key == Key.f4:
         listen_for_cmd()
